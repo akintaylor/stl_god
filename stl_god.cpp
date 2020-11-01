@@ -8,8 +8,7 @@ bool f (int x, int y) {
     return x > y;
 }
 
-int main() {
-    // C++ STL
+void vectorDemo() {
     vector<int> A = {11, 2, 3, 14};
 
     cout << A[1] << endl;
@@ -65,6 +64,10 @@ int main() {
         cout << x << " ";
     }
     cout << endl;
+}
 
-    
+int main() {
+    // C++ STL
+
+
 }
